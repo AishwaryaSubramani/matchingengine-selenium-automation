@@ -2,7 +2,9 @@
 
 This repository contains a **UI automation testing framework** built using **Selenium WebDriver with C# and NUnit** to validate functionality on  
 https://www.matchingengine.com
+
 The automation focuses on the **Repertoire Management Module**, ensuring that supported products are displayed correctly and consistently.
+
 ---
 
 ## 🎯 Project Objective
