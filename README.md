@@ -1,30 +1,36 @@
-# 🧪 MatchingEngineAutomation
+# 🧩 Matching Engine – Selenium Automation Framework
 
-This project is an automated UI testing suite for [MatchingEngine.com](https://www.matchingengine.com/), focused specifically on the **Repertoire Management Module**.
+This repository contains a **UI automation testing framework** built using **Selenium WebDriver with C# and NUnit** to validate functionality on  
+https://www.matchingengine.com
+
+The automation focuses on the **Repertoire Management Module**, ensuring that supported products are displayed correctly and consistently.
+---
+
+## 🎯 Project Objective
+
+The goal of this project is to automatically verify:
+
+- Navigation to the **Repertoire Management Module**
+- Visibility of the **Products Supported** section
+- Accuracy of the supported product list displayed on the website
 
 ---
 
-## 📌 Project Objective
+## 📁 Project Structure
 
-To automatically verify the visibility and accuracy of supported products listed under the *Repertoire Management Module* on MatchingEngine’s official website.
+MatchingEngineSeleniumAutomation
 
----
+├── Drivers  (Browser and WebDriver setup(Chrome))
 
-## 🧱 Folder Structure
-
-MatchingEngineAutomation
-
-├── Drivers  (Chrome WebDriver initialization)
-
-├── PageObjects (Page Object Models (elements + actions) )
+├── PageObjects (Page Object Models (locators + user actions) )
 
 ├── Tests (NUnit test classes)
 
 ├── Utilities  (Reusable assertions and wait helpers)
 
-├── TestResults  (Test result output (ignored in .gitignore) )
+├── TestResults  (Raw test execution results (ignored in .gitignore) )
 
-├── TestReports  (Code coverage HTML reports (ignored in .gitignore) )
+├── TestReports  (HTML code coverage reports (ignored in .gitignore) )
 
 ├── test.runsettings  (Code coverage configuration)
 
@@ -35,7 +41,7 @@ MatchingEngineAutomation
 
 ---
 
-## 🧪 Test Scenario Automated
+## Test Scenario Automated
 
 1. Navigate to [https://www.matchingengine.com](https://www.matchingengine.com)
 2. Expand **Modules** in the header
@@ -53,7 +59,7 @@ MatchingEngineAutomation
 
 ---
 
-## 🛠️ Tech Stack
+## ⚙️ Tech Stack
 
 - **Language:** C#
 - **Framework:** .NET 9
@@ -64,7 +70,7 @@ MatchingEngineAutomation
 
 ---
 
-## 🚀 How to Run the Tests
+## ▶️ How to Run the Tests
 
 # Restore packages
 dotnet restore
