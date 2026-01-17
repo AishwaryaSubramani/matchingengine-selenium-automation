@@ -89,7 +89,7 @@ reportgenerator -reports:"TestResults\**\coverage.cobertura.xml" -targetdir:"Tes
 Then open:
 TestReports/index.html
 
-##NuGet Packages Used
+## NuGet Packages Used
 
 1. Selenium.WebDriver
 2. Selenium.WebDriver.ChromeDriver
