@@ -84,6 +84,7 @@ dotnet test --collect:"XPlat Code Coverage" --settings test.runsettings
 
 ## Generate HTML Coverage Report
 
+```powershell
 reportgenerator -reports:"TestResults\**\coverage.cobertura.xml" -targetdir:"TestReports" -reporttypes:Html
 
 
