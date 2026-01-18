@@ -86,6 +86,7 @@ dotnet test --collect:"XPlat Code Coverage" --settings test.runsettings
 
 reportgenerator -reports:"TestResults\**\coverage.cobertura.xml" -targetdir:"TestReports" -reporttypes:Html
 
+
 Then open:
 TestReports/index.html
 
